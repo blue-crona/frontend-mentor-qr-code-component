@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --lgray: hsl(212, 45%, 89%);
+    --lblue: hsl(220, 15%, 55%);
+    --dblue: hsl(218, 44%, 22%);
+    --shadow: hsl(220, 100%, 89%);
+}
+
+body {
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--lgray);
+    font-size: 15px;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0px 20px 25px -10px var(--shadow);
+}
+
+.qr-code-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title, .sub-title {
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.title {
+    padding-bottom: 0px;
+}
+
+.sub-title {
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: 700 ;
+    color: var(--dblue);
+}
+
+p {
+    font-weight: 400;
+    color: var(--lblue);
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0px;
+}
