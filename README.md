@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/blue-crona/frontendmanager-qr-code-component-main)
-- Live Site URL: [GitHub Pages](https://blue-crona.github.io/frontendmanager-qr-code-component-main/)
+- Solution URL: [GitHub](https://github.com/blue-crona/frontend-mentor-qr-code-component)
+- Live Site URL: [GitHub Pages](https://blue-crona.github.io/frontend-mentor-qr-code-component/)
 
 ## My process
 
